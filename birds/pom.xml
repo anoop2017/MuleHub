@@ -59,25 +59,25 @@
 				
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-app-maven-plugin</artifactId>
-				<version>1.7</version>
+				<artifactId>mule-maven-plugin</artifactId>
+				<version>2.0</version>
 				<configuration>
-<!--                     <deploymentType>cloudhub</deploymentType> -->
-<!-- 					<muleVersion>3.9.0</muleVersion> -->
-<!-- 					<username>anoopkkdev</username> -->
-<!-- 					<password>Ethan@2011</password> -->
-<!-- 					<redeploy>true</redeploy> -->
-<!-- 					<environment>Sandbox</environment> -->
-<!-- 					<workerType>Micro</workerType> -->
+                    <deploymentType>cloudhub</deploymentType>
+					<muleVersion>3.9.0</muleVersion>
+					<username>anoopkkdev</username>
+					<password>Ethan@2011</password>
+					<redeploy>true</redeploy>
+					<environment>Sandbox</environment>
+					<workerType>Micro</workerType>
 					
-					<cloudHubDeployment>
-			            <uri>https://anypoint.mulesoft.com</uri>
-			            <muleVersion>${mule.version}</muleVersion>
-			            <username>anoopkkdev</username>
-			            <password>Ethan@2011</password>
-			            <applicationName>birds</applicationName>
-			            <environment>Sandbox</environment>
-        			</cloudHubDeployment>
+<!-- 					<cloudHubDeployment> -->
+<!-- 			            <uri>https://anypoint.mulesoft.com</uri> -->
+<!-- 			            <muleVersion>${mule.version}</muleVersion> -->
+<!-- 			            <username>anoopkkdev</username> -->
+<!-- 			            <password>Ethan@2011</password> -->
+<!-- 			            <applicationName>birds</applicationName> -->
+<!-- 			            <environment>Sandbox</environment> -->
+<!--         			</cloudHubDeployment> -->
 				</configuration>
 				
 				<executions>
@@ -209,6 +209,10 @@
                 <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
+        <pluginRepository>
+        	<id>mule-public</id>
+        	<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+    	</pluginRepository>
     </pluginRepositories>
 
 </project>

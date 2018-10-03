@@ -11,6 +11,6 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
     <flow name="flightsFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/birds" allowedMethods="GET" doc:name="HTTP"/>
         <logger message="This is updated" level="INFO" doc:name="Logger"/> 
-        <set-payload value="#['Test']" doc:name="Set Payload"/>
+        <set-payload value="#['Test1']" doc:name="Set Payload"/>
     </flow>
 </mule>

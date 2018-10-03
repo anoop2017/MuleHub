@@ -26,6 +26,13 @@
 				<extensions>true</extensions>
 				<configuration>
                     <copyToAppsDirectory>true</copyToAppsDirectory>
+                    <deploymentType>cloudhub</deploymentType>
+					<muleVersion>3.9.1</muleVersion>
+					<username>anoopkkdev</username>
+					<password>Ethan@2011</password>
+					<redeploy>true</redeploy>
+					<environment>Sandbox</environment>
+					<workerType>Micro</workerType>
 				</configuration>
 			</plugin>
 			<plugin>

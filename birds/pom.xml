@@ -12,7 +12,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<mule.version>3.8.1</mule.version>
+		<mule.version>3.9.0</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
 	</properties>
 
@@ -26,7 +26,7 @@
 				<configuration>
                     <copyToAppsDirectory>true</copyToAppsDirectory>
                     <deploymentType>cloudhub</deploymentType>
-					<muleVersion>3.8.1</muleVersion>
+					<muleVersion>3.9.0</muleVersion>
 					<username>anoopkkdev</username>
 					<password>Ethan@2011</password>
 					<redeploy>true</redeploy>
